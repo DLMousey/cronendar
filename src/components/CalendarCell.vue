@@ -29,7 +29,6 @@ export default {
 <style scoped>
 .container {
   display: flex;
-  /*border: 1px solid #EBEBEB;*/
   width: 100%;
   padding: 8px;
   border-bottom: 1px dashed #ebebeb;
@@ -39,15 +38,13 @@ export default {
 
 .hour-label {
   color: #999;
-  /*display: block;*/
-  /*width: 100%;*/
   position: absolute;
   top: 0;
   left: 5px;
 }
 
 .entry-badge {
-  background: blue;
+  background: #0074D9;
   color: white;
   border: none;
   padding: 12px;

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <textarea v-model="cron" class="cron-input" name="crontab" />
+    <textarea v-model="cron" class="cron-input" name="crontab" placeholder="Paste a crontab here" />
     <button class="cron-button" @click="generate()" type="button">Generate calendar</button>
   </div>
 </template>

@@ -1,6 +1,5 @@
 <template>
   <div class="column">
-<!--    <pre>{{ $props.entries }}</pre>-->
     <b>{{ $props.day }}</b>
     <div class="cells">
       <!-- eslint-disable-next-line -->

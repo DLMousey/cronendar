@@ -60,9 +60,7 @@ export default {
         6: [],
       }
 
-      console.log('on cron input', input);
       input.forEach(entry => {
-        console.log(entry.day.number);
         this.entries[entry.day.number].push(entry);
       });
     }
